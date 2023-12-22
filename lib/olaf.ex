@@ -1,0 +1,2 @@
+defmodule Olaf do
+end
