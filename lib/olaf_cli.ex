@@ -3,7 +3,8 @@ defmodule OlafCLI do
     args
     |> parse_args()
     |> Olaf.search()
-    |> Olaf.convert_to("markdown")
+    |> Olaf.parse()
+    |> Olaf.format()
     |> IO.puts()
   end
 

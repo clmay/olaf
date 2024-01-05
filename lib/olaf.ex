@@ -4,7 +4,12 @@ defmodule Olaf do
     result
   end
 
-  def convert_to(data, format) do
+  def parse(data) do
+    {:ok, result} = {:ok, data}
+    result
+  end
+
+  def format(data) do
     {:ok, result} = {:ok, data}
     result
   end
